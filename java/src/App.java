@@ -12,7 +12,7 @@ class JavaPerformanceTest {
         var result = 1;
         var stringOp = "";
 
-        for (var i = 0; i < loopCount; i++) {
+        for (var i = 0; i < loopCount; i++)
             switch (op) {
                 case 0: {
                     stringOp = "addition: ";
@@ -35,10 +35,8 @@ class JavaPerformanceTest {
                     break;
                 }
             }
-        }
 
-        var duration = stopwatch.elapsedTime();
-        System.out.println(String.format("Execution for " + stringOp + duration + " seconds"));
+        System.out.println(String.format("Execution for " + stringOp + stopwatch.elapsedTime() + " seconds"));
     }
 }
 
