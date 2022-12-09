@@ -5,6 +5,7 @@ Using helper classes, we can measure the time it takes to perform these calculat
 
 *THIS IS STILL WIP*
 
+# Information
 **Variables**
 * The languages: C#, C++, Java, Python, and Javascript.
 * A computer with Intel Core i5.
