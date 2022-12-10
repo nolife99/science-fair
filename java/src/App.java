@@ -1,6 +1,6 @@
 //========== CODE WRITTEN BY DYLAN CHEN ==========//
 class JavaPerformanceTest {
-    static double loopCount = 1E+8;
+    static double loopCount = 100000000;
 
     public static void main(String[] args) {
         for (var i = 0; i < 4; i++)
@@ -36,7 +36,7 @@ class JavaPerformanceTest {
                 }
             }
 
-        System.out.println(String.format("Execution for " + stringOp + stopwatch.elapsedTime() + " seconds"));
+        System.out.println(String.format("Execution time for " + stringOp + stopwatch.elapsedTime() + " seconds"));
     }
 }
 
