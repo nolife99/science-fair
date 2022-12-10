@@ -39,8 +39,8 @@ void Operate(int op)
             }
         }
 
-    auto finish = std::chrono::high_resolution_clock::now();
-    auto secondsExe = std::chrono::duration_cast<std::chrono::milliseconds>(finish - start).count();
+    auto end = std::chrono::high_resolution_clock::now();
+    auto secondsExe = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
 
     std::cout << "Execution for " + stringOp + std::to_string(secondsExe / 1E+3) + " seconds\n";
 }
