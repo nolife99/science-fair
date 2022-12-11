@@ -6,7 +6,7 @@ function Operate(op)
     var stringOp = "";
     
     var start = new Date();
-    for (i = 0; i < loopCount; i++)
+    for (let i = 0; i < loopCount; i++)
         switch (op) 
         {
             case 0: 
