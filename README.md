@@ -3,7 +3,7 @@ The goal of this project is to measure which programming language is the most pe
 
 Using helper classes, we can measure the time it takes to perform these calculations.
 
-*THIS IS STILL WIP*
+*COMPLETED*
 
 # Information
 **Variables**
